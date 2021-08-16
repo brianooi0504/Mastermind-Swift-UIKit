@@ -79,6 +79,9 @@ class ViewController: UIViewController {
         tableViewController.tableView.reloadData()
     }
     
+    @IBAction func leaderboardButton(_ sender: UIBarButtonItem) {
+    }
+    
     func appendColor(color: UIColor) {
         if let index = guess.guesses.firstIndex(of: nil) {
             guess.guesses[index] = color

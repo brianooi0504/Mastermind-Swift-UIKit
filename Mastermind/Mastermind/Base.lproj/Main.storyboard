@@ -238,7 +238,11 @@
                                 <action selector="restartPressed:" destination="BYZ-38-t0r" id="7bl-MU-j2O"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Leaderboard" id="RAl-jm-7ab"/>
+                        <barButtonItem key="rightBarButtonItem" title="Leaderboard" id="RAl-jm-7ab">
+                            <connections>
+                                <action selector="leaderboardButton:" destination="BYZ-38-t0r" id="iAy-ie-A1K"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="blueGuess" destination="8je-dO-pa3" id="o8r-pM-PiQ"/>
